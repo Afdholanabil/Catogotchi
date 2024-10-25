@@ -1,0 +1,31 @@
+name: catogotchi
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flame: ^1.15.0
+  get: ^4.6.5
+
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets : 
+  - assets/images/character/Cat/cat1_run_200.png
+  - assets/images/character/Cat/cat1_idle_eating_200.png
+  - assets/images/character/Cat/cat1_idle_happy_200.png
+  - assets/images/character/Cat/cat1_idle_hungry_200.png
+  - assets/images/character/Cat/cat1_idle_200.png
+  - assets/images/character/Cat/cat_10.png
+  - assets/images/character/cat_run.png
